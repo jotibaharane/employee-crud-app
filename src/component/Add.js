@@ -50,7 +50,7 @@ const Add = () => {
     arr.push(formValues);
     localStorage.setItem("data", JSON.stringify(arr));
     alert("Data added successfully!");
-    navigate("/");
+    navigate("/employees");
   };
 
   return (
