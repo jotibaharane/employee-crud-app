@@ -38,7 +38,7 @@ const Update = () => {
     arr = arr.map((emp) => (emp.id === formValues.id ? formValues : emp));
     localStorage.setItem("data", JSON.stringify(arr));
     alert("updated successfully!");
-    navigate("/");
+    navigate("/employees");
   };
 
   return (
