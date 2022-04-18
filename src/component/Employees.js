@@ -55,7 +55,7 @@ function Employees() {
 
   const updateUser = React.useCallback(
     (id) => () => {
-      navigate(`/update/${id}`);
+      navigate(`/employees/update/${id}`);
     },
     []
   );
