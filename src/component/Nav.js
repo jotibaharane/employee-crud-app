@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 const Nav = () => {
     const navigate=useNavigate()
     const handleCloseNavMenu = () => {
-navigate("/add")
+navigate("/employees/add")
     };
 
     return (
